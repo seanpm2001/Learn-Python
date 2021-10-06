@@ -1,406 +1,452 @@
+### Continuing to learn python
 
-***
+This new section will go over my Python knowledge from 2021 onward:
 
-# <projectName>
+##### Break keyword (python)
 
-![{Project icon} This image failed to load. It may be due to the file not being reached, or a general error. Reload the page to fix a possible general error.](Image.svg)
+**This section was last updated on 2021, Tuesday, October 5th at 12:22 am**
 
-# By:
+```python
+print("Break")
+break
+```
 
-<!-- ![{Developer name} This image failed to load. It may be due to the file not being reached, or a general error. Reload the page to fix a possible general error.](Image2.svg) !-->
+_(i) this is newer knowledge from 2021.._
 
-## [Seanpm2001](https://github.com/seanpm2001/), [<developerName>](https://github.com/<developerName>/) Et; Al.
+**This section was last updated on 2021, Tuesday, October 5th at 1:03 pm**
 
+#### Prior knowledge of the Python programming language
 
-### Top
+This section goes over my prior knowledge of Python (before the year 2020)
 
-# `README.md`
+##### Hello world (python)
 
-***
+```python
+print ("Hello world")
+```
 
-## Read this article in a different language
+Here is a version more suitable for displaying the message for more than 0.01 seconds:
 
-**Sorted by:** `A-Z`
+```python
+print ("Hello world")
+noMore = input("Press [ENTER] key to continue")
+```
 
-[Sorting options unavailable](https://github.com/<developerName>/<repoName>)
+**This section was last updated on 2021, Tuesday, October 5th at 12:20 am**
 
-( [af Afrikaans](/.github/README_AF.md) Afrikaans | [sq Shqiptare](/.github/README_SQ.md) Albanian | [am አማርኛ](/.github/README_AM.md) Amharic | [ar عربى](/.github/README_AR.md) Arabic | [hy հայերեն](/.github/README_HY.md) Armenian | [az Azərbaycan dili](/.github/README_AZ.md) Azerbaijani | [eu Euskara](/.github/README_EU.md) Basque | [be Беларуская](/.github/README_BE.md) Belarusian | [bn বাংলা](/.github/README_BN.md) Bengali | [bs Bosanski](/.github/README_BS.md) Bosnian | [bg български](/.github/README_BG.md) Bulgarian | [ca Català](/.github/README_CA.md) Catalan | [ceb Sugbuanon](/.github/README_CEB.md) Cebuano | [ny Chichewa](/.github/README_NY.md) Chichewa | [zh-CN 简体中文](/.github/README_ZH-CN.md) Chinese (Simplified) | [zh-t 中國傳統的）](/.github/README_ZH-T.md) Chinese (Traditional) | [co Corsu](/.github/README_CO.md) Corsican | [hr Hrvatski](/.github/README_HR.md) Croatian | [cs čeština](/.github/README_CS.md) Czech | [da dansk](README_DA.md) Danish | [nl Nederlands](/.github/README_NL.md) Dutch | [**en-us English**](/.github/README.md) English |  [EO Esperanto](/.github/README_EO.md) Esperanto | [et Eestlane](/.github/README_ET.md) Estonian | [tl Pilipino](/.github/README_TL.md) Filipino | [fi Suomalainen](/.github/README_FI.md) Finnish |  [fr français](/.github/README_FR.md) French | [fy Frysk](/.github/README_FY.md) Frisian | [gl Galego](/.github/README_GL.md) Galician | [ka ქართველი](/.github/README_KA) Georgian | [de Deutsch](/.github/README_DE.md) German | [el Ελληνικά](/.github/README_EL.md) Greek | [gu ગુજરાતી](/.github/README_GU.md) Gujarati | [ht Kreyòl ayisyen](/.github/README_HT.md) Haitian Creole | [ha Hausa](/.github/README_HA.md) Hausa | [haw Ōlelo Hawaiʻi](/.github/README_HAW.md) Hawaiian | [he עִברִית](/.github/README_HE.md) Hebrew | [hi हिन्दी](/.github/README_HI.md) Hindi | [hmn Hmong](/.github/README_HMN.md) Hmong | [hu Magyar](/.github/README_HU.md) Hungarian | [is Íslenska](/.github/README_IS.md) Icelandic | [ig Igbo](/.github/README_IG.md) Igbo | [id bahasa Indonesia](/.github/README_ID.md) Icelandic | [ga Gaeilge](/.github/README_GA.md) Irish | [it Italiana/Italiano](/.github/README_IT.md) | [ja 日本語](/.github/README_JA.md) Japanese | [jw Wong jawa](/.github/README_JW.md) Javanese | [kn ಕನ್ನಡ](/.github/README_KN.md) Kannada | [kk Қазақ](/.github/README_KK.md) Kazakh | [km ខ្មែរ](/.github/README_KM.md) Khmer | [rw Kinyarwanda](/.github/README_RW.md) Kinyarwanda | [ko-south 韓國語](/.github/README_KO_SOUTH.md) Korean (South) | [ko-north 문화어](README_KO_NORTH.md) Korean (North) (NOT YET TRANSLATED) | [ku Kurdî](/.github/README_KU.md) Kurdish (Kurmanji) | [ky Кыргызча](/.github/README_KY.md) Kyrgyz | [lo ລາວ](/.github/README_LO.md) Lao | [la Latine](/.github/README_LA.md) Latin | [lt Lietuvis](/.github/README_LT.md) Lithuanian | [lb Lëtzebuergesch](/.github/README_LB.md) Luxembourgish | [mk Македонски](/.github/README_MK.md) Macedonian | [mg Malagasy](/.github/README_MG.md) Malagasy | [ms Bahasa Melayu](/.github/README_MS.md) Malay | [ml മലയാളം](/.github/README_ML.md) Malayalam | [mt Malti](/.github/README_MT.md) Maltese | [mi Maori](/.github/README_MI.md) Maori | [mr मराठी](/.github/README_MR.md) Marathi | [mn Монгол](/.github/README_MN.md) Mongolian | [my မြန်မာ](/.github/README_MY.md) Myanmar (Burmese) | [ne नेपाली](/.github/README_NE.md) Nepali | [no norsk](/.github/README_NO.md) Norwegian | [or ଓଡିଆ (ଓଡିଆ)](/.github/README_OR.md) Odia (Oriya) | [ps پښتو](/.github/README_PS.md) Pashto | [fa فارسی](/.github/README_FA.md) |Persian  [pl polski](/.github/README_PL.md) Polish | [pt português](/.github/README_PT.md) Portuguese | [pa ਪੰਜਾਬੀ](/.github/README_PA.md) Punjabi | No languages available that start with the letter Q | [ro Română](/.github/README_RO.md) Romanian | [ru русский](/.github/README_RU.md) Russian | [sm Faasamoa](/.github/README_SM.md) Samoan | [gd Gàidhlig na h-Alba](/.github/README_GD.md) Scots Gaelic | [sr Српски](/.github/README_SR.md) Serbian | [st Sesotho](/.github/README_ST.md) Sesotho | [sn Shona](/.github/README_SN.md) Shona | [sd سنڌي](/.github/README_SD.md) Sindhi | [si සිංහල](/.github/README_SI.md) Sinhala | [sk Slovák](/.github/README_SK.md) Slovak | [sl Slovenščina](/.github/README_SL.md) Slovenian | [so Soomaali](/.github/README_SO.md) Somali | [[es en español](/.github/README_ES.md) Spanish | [su Sundanis](/.github/README_SU.md) Sundanese | [sw Kiswahili](/.github/README_SW.md) Swahili | [sv Svenska](/.github/README_SV.md) Swedish | [tg Тоҷикӣ](/.github/README_TG.md) Tajik | [ta தமிழ்](/.github/README_TA.md) Tamil | [tt Татар](/.github/README_TT.md) Tatar | [te తెలుగు](/.github/README_TE.md) Telugu | [th ไทย](/.github/README_TH.md) Thai | [tr Türk](/.github/README_TR.md) Turkish | [tk Türkmenler](/.github/README_TK.md) Turkmen | [uk Український](/.github/README_UK.md) Ukrainian | [ur اردو](/.github/README_UR.md) Urdu | [ug ئۇيغۇر](/.github/README_UG.md) Uyghur | [uz O'zbek](/.github/README_UZ.md) Uzbek | [vi Tiếng Việt](/.github/README_VI.md) Vietnamese | [cy Cymraeg](/.github/README_CY.md) Welsh | [xh isiXhosa](/.github/README_XH.md) Xhosa | [yi יידיש](/.github/README_YI.md) Yiddish | [yo Yoruba](/.github/README_YO.md) Yoruba | [zu Zulu](/.github/README_ZU.md) Zulu ) Available in 110 languages (108 when not counting English and North Korean, as North Korean has not been translated yet [Read about it here](/OldVersions/Korean(North)/README.md))
+##### Functions (python)
 
-Translations in languages other than English are machine translated and are not yet accurate. No errors have been fixed yet as of March 21st 2021. Please report translation errors [here](https://github.com/<developerName>/<repoName>/issues/). Make sure to backup your correction with sources and guide me, as I don't know languages other than English well (I plan on getting a translator eventually) please cite [wiktionary](https://en.wiktionary.org) and other sources in your report. Failing to do so will result in a rejection of the correction being published.
+```python
+def functionOne():
+	print ("Function one")
+	x = int(2)
+	y = int(16)
+	print (x ** y)
+# Main thread
+return functionOne()
+```
 
-Note: due to limitations with GitHub's interpretation of markdown (and pretty much every other web-based interpretation of markdown) clicking these links will redirect you to a separate file on a separate page that isn't the intended page. You will be redirected to the [.github folder](/.github/) of this project, where the README translations are hosted.
+This should output:
 
-Translations are currently done with Bing translate and DeepL. Support for Google Translate translations is coming to a close due to privacy concerns.
+```text
+Function one
+65536
+```
 
-***
+**This section was last updated on 2021, Tuesday, October 5th at 12:21 am**
 
-# Index
+##### Lists (python)
 
-[00.0 - Top](#Top)
+```python
+list123 = ["1", "2", "3"]
+print (str(list123))
+noMore = input("Press [ENTER] key to quit")
+```
 
-> [00.1 - Title](#<projectName>)
+_(i) This example may have problems._
 
-> [00.2 - Read this article in a different language](#Read-this-article-in-a-different-language)
+**This section was last updated on 2021, Tuesday, October 5th at 1:09 pm**
 
-> [00.3 - Index](#Index)
+##### Arrays (python)
 
-[01.0 - Description](#RepositoryName)
+```python
+array2D = ["entry1", "entry2", "entry3"]
+print (str(array2D))
+noMore = input("Press [ENTER] key to quit")
+```
 
-[02.0 - About](#About)
+_(i) This example may have problems._
 
-[03.0 - Wiki](#Wiki)
+**This section was last updated on 2021, Tuesday, October 5th at 1:08 pm**
 
-[04.0 - History](#History)
+##### Input (python)
 
-> [04.1 - Pre-history](#Pre-history)
+```python
+strInput = str(input("String input: "))
+print ("You typed: " + str(strInput))
+intInput = int(input("Integer input (enter a number): "))
+print ("You typed: " + str(intInput))
+miscInput = input("Miscellaneous input (enter anything): "))
+print ("You typed: " + str(miscInput))
+noMore = input("Press [ENTER] key to quit")
+# Can booleans be an input value?
+```
 
-> [04.2 - Alpha History](#Alpha-history)
+**This section was last updated on 2021, Tuesday, October 5th at 1:07 pm**
 
-> [04.3 - Beta History](#Beta-history)
+##### Variables (python)
 
-> [04.4 - Modern History](#Modern-history)
+```python
+x = int(2)
+p = float(3.14)
+print (x + " " + p)
+noMore = input("Press [ENTER] key to quit")
+```
 
-[05.0 - Copying](#Copying)
+**This section was last updated on 2021, Tuesday, October 5th at 1:02 pm**
 
-[06.0 - Credits](#Credits)
+##### Booleans (python)
 
-[07.0 - Installation](#Installation)
+```python
+trueFalse = bool(true)
+falseTrue = bool("false")
+```
 
-[08.0 - Version history](#Version-history)
+**This section was last updated on 2021, Tuesday, October 5th at 1:02 pm**
 
-[09.0 - Version history](#Version-history)
+##### Break keyword (python)
 
-[10.0 - Software status](#Software-status)
+**This section was last updated on 2021, Tuesday, October 5th at 12:22 am**
 
-[11.0 - Sponsor info](#Sponsor-info)
+```python
+print("Break")
+break
+```
 
-[12.0 - Contributers](#Contributers)
+_(i) this is newer knowledge from 2021. It should be moved out of this section._
 
-[13.0 - Issues](#Issues)
+**This section was last updated on 2021, Tuesday, October 5th at 1:03 pm**
 
-> [13.1 - Current issues](#Current-issues)
+##### Upper keyword (python)
 
-> [13.2 - Past issues](#Past-issues)
+```python
+inputLowercase = str(input("Enter something with at least 1 lowercase letter: "))
+inputLowercase == inputLowercase.upper()
+print ("Uppercase: " + str(inputLowercase))
+noMore = input("Press [ENTER] key to quit")
+```
 
-> [13.3 - Past pull requests](#Past-pull-requests)
+**This section was last updated on 2021, Tuesday, October 5th at 1:05 pm**
 
-> [13.4 - Active pull requests](#Active-pull-requests)
+##### Elif (python)
 
-[14.0 - Resources](#Resources)
+```python
+inputELF = str(input("Do you like Python (y/N)"))
+inputELF == inputELF.upper()
+if (inputELF == "Y" or "YES"):
+	print ("HE IS THE MESSIAH!")
+elif (inputELF == "N" or "NO"):
+	print ("sssssssssssssssss")
+else:
+	print ("Invalid input. Please enter Y, YES, N, or NO")
+noMore = input("Press [ENTER] key to quit")
+```
 
-[15.0 - Contributing](#Contributing)
+**This section was last updated on 2021, Tuesday, October 5th at 1:12 pm**
 
-[16.0 - About README](#About-README)
+##### If/else (python)
 
-[17.0 - README Version history](#README-version-history)
+```python
+input1 = str(input("Do you like Python (y/N)"))
+input1 == input1.upper()
+if (input1 == "Y" or "YES"):
+	print ("HE IS THE MESSIAH!")
+else:
+	print ("ssssssssssssssssss")
+noMore = input("Press [ENTER] key to quit")
+```
 
-[18.0 - Footer](#You-have-reached-the-end-of-the-README-file)
+**This section was last updated on 2021, Tuesday, October 5th at 1:13 am**
 
-> [18.9 - End of file](#EOF)
+##### Strings (python)
 
-***
+```python
+stringy = str(input("Enter some text: "))
+print (str(stringy))
+noMore = input("Press [ENTER] key to quit")
+```
 
-# <repoName>
-<repo_description>
+**This section was last updated on 2021, Tuesday, October 5th at 1:14 pm**
 
-***
+##### Concatenation (python)
 
-## About
+```python
+con1 = str(input("Enter a name: "))
+cat2 = int(input("Enter an age: "))
+ena3 = str(input("Enter a fruit: "))
+tion = float(input("Enter the first 3 numbers of Pi with a decimal: "))
+print ("Your name is " + str(con1)) + " and you just turned " + str(cat2) + " years old. You wanted to stop aging, you so ate a magical " + str(ena3) + " and now Pi is ready: " + str(tion))
+noMore = input("Press [ENTER] key to quit")
+```
 
-See above. <extendedRepoDescription>
+**This section was last updated on 2021, Tuesday, October 5th at 1:17 pm**
 
-***
+##### Loops (python)
 
-## Wiki
+**This section was last updated on 2021, Tuesday, October 5th at 12:23 am**
 
-[Click/tap here to view this projects Wiki](https://github.com/<developerName>/<repoName>/wiki)
+###### While loop (python)
 
-If the project has been forked, the Wiki was likely removed. Luckily, I include an embedded version. You can view it [here](/External/ProjectWiki/).
+```python
+xwhile = int(0)
+while (x == 0):
+	print ("Recursion")
+	stop1 = int(input("Enter the answer to the universe to stop the loop: "))
+	if (stop1 == 42):
+		xwhile == 1
+	else:
+		print ("Wrong answer. The recursion continues")
+print ("You now hold the secret to the universe")
+noMore = input("Press [ENTER] key to quit")
+```
 
-***
+**This section was last updated on 2021, Tuesday, October 5th at 1:20 pm**
 
-## History
+###### For loop (python)
 
-Write about this projects history here.
+```python
+ra = str("ra")
+for x in range(1, 2):
+	print (str(ra))
+print ("Rasputin")
+noMore = input("Press [ENTER] key to quit")
+```
 
-### Pre-history
+**This section was last updated on 2021, Tuesday, October 5th at 1:21 pm**
 
-No pre-history to show for this project.
+###### Random (python)
 
-### Alpha history
+```python
+import random
+randomNum = random(randint(0, 9))
+print ("The randomizer chose: " + str(randomNum))
+noMore = input("Press [ENTER] key to quit")
+```
 
-No Alpha history to show for this project.
+_(i) This example may have problems._
 
-### Beta history
+**This section was last updated on 2021, Tuesday, October 5th at 1:23 pm**
 
-No Beta history to show for this project.
+##### File IO (python)
 
-### Modern history
+**This section was last updated on 2021, Tuesday, October 5th at 12:24 am**
 
-No Modern history to show for this project.
+###### Writing to a file (python)
 
-***
+```python
+f = open("test.txt", "a")
+f.write("This is a test file")
+f.close()
+```
 
-## Copying
+**This section was last updated on 2021, Tuesday, October 5th at 1:30 pm**
 
-View the copying license for this project [here](/COPYING) (if you haven't built the project yet with the makefile, here is the original link: [COPYINGL](/COPYINGL)
+###### Reading a file (python)
 
-Please note that you also have to follow the rules of the GNU General Public License v3 (GPL3) which you can view [here](/LICENSE.txt)
+```python
+# open and read the file
+f = open("test.txt", "r")
+print(f.read()) 
+```
 
-***
+**This section was last updated on 2021, Tuesday, October 5th at 1:32 pm**
 
-## Credits
+##### Classes (python)
 
-View the credits file for this project and see the people who got together to make this project by [clicking/tapping here](/CREDITS)
+```python
+class computerScience2018():
+	print ("In 2018, I began learning Python in computer science class")
+	noMore = input("Press [ENTER] key to quit")
+```
 
-***
+**This section was last updated on 2021, Tuesday, October 5th at 1:24 pm**
 
-## Installation
+##### Objects (python)
 
-View the installation instructions file for this project [here](/INSTALL)
+```python
+def object1():
+	print ("Block")
+	bblock = int(4)
+	print (str(bblock) + " sides")
+return object1()
+```
 
-Requirements: Read the instructions for more info, and get the latest up-to-date instructions [here](https://gist.github.com/seanpm2001/745564a46186888e829fdeb9cda584de)
+**This section was last updated on 2021, Tuesday, October 5th at 1:34 pm**
 
-***
+###### Object Oriented Programming (python)
 
-## Sponsor info
+```python
+def object2():
+	print ("Triangle")
+	btri = int(3)
+	print (str(btri) + " sides")
+object2()
+```
 
-![SponsorButton.png](/SponsorButton.png)
+**This section was last updated on 2021, Tuesday, October 5th at 1:35 pm**
 
-You can sponsor this project if you like, but please specify what you want to donate to. [See the funds you can donate to here](https://github.com/seanpm2001/Sponsor-info/tree/main/For-sponsors/)
+##### Basic calculator (python)
 
-You can view other sponsor info [here](https://github.com/seanpm2001/Sponsor-info/)
+```python
+a = int(input("Addition calculator:\nEnter the first number: "))
+b = int(input("Num2: "))
+c = int(input("Num3: "))
+sum = int(a + b + c)
+print ("Sum (answer): " + str(sum))
+noMore = input("Press [ENTER] key to quit")
+```
 
-Try it out! The sponsor button is right up next to the watch/unwatch button.
+**This section was last updated on 2021, Tuesday, October 5th at 1:37 pm**
 
-***
+##### Basic options menu (python)
 
-## Version history
+```python
+sfxIO = bool(true)
+musicIO = bool(true)
+print ("Audio settings:\n")
+sfxC = str(input("Sound effects (y/N))
+sfxC == sfxC.upper()
+if (sfxC == "Y" or "YES"):
+	sfxIO == bool(true)
+else:
+	sfxIO == bool(false)
+musicC = str(input("Music (y/N))
+musicC == musicC.upper()
+if (musicC == "Y" or "YES"):
+	musicIO == bool(true)
+else:
+	musicIO == bool(false)
+noMore = input("Press [ENTER] key to quit")
+```
 
-**Version history currently unavailable**
+**This section was last updated on 2021, Tuesday, October 5th at 1:40 pm**
 
-**No other versions listed**
+##### Escape characters (python)
 
-***
+**This section was last updated on 2021, Tuesday, October 5th at 12:26 am**
 
-## Software status
+###### Newline (python)
 
-All of my works are free some restrictions. DRM (**D**igital **R**estrictions **M**anagement) is not present in any of my works.
+```python
+print ("The names text\n\n\n\n\n\nBottom text")
+noMore = input("Press [ENTER] key to quit")
+```
 
-![DRM-free_label.en.svg](/DRM-free_label.en.svg)
+**This section was last updated on 2021, Tuesday, October 5th at 1:25 pm**
 
-This sticker is supported by the Free Software Foundation. I never intend to include DRM in my works.
+###### Tab (python)
 
-I am using the abbreviation "Digital Restrictions Management" instead of the more known "Digital Rights Management" as the common way of addressing it is false, there are no rights with DRM. The spelling "Digital Restrictions Management" is more accurate, and is supported by [Richard M. Stallman (RMS)](https://en.wikipedia.org/wiki/Richard_Stallman) and the [Free Software Foundation (FSF)](https://en.wikipedia.org/wiki/Free_Software_Foundation)
+```python
+print ("Tabby\tLikes\tTo\tTab")
+noMore = input("Press [ENTER] key to quit")
+```
 
-This section is used to raise awareness for the problems with DRM, and also to protest it. DRM is defective by design and is a major threat to all computer users and software freedom.
+**This section was last updated on 2021, Tuesday, October 5th at 1:25 pm**
 
-Image credit: [defectivebydesign.org/drm-free/...](https://www.defectivebydesign.org/drm-free/how-to-use-label/)
+##### Exponentiation (python)
 
-***
+```python
+# 2 to the power of 16
+x = int(2)
+y = int(16)
+z = int(x ** y)
+print ("2^16 == " + str(z))
+noMore = input("Press [ENTER] key to quit")
+```
 
-## Contributers
+**This section was last updated on 2021, Tuesday, October 5th at 1:26 pm**
 
-Currently, I am the only contributer. Contributing is allowed, as long as you follow the rules of the [CONTRIBUTING.md](/CONTRIBUTING.md) file.
+##### Error handling (python)
 
-> * 1. [seanpm2001](https://github.com/seanpm2001/) - x commits (As of Yr, DoW, Month, DoM, at ##:## a/pm)
+**This section was last updated on 2021, Tuesday, October 5th at 12:27 am**
 
-> * 2. No other contributers.
+###### Try (python)
 
-***
+This example will throw an error, as x is not defined.
 
-## Issues
+```python
+try:
+	print(x)
+except:
+	print("An exception occurred") 
+```
 
-### Current issues
+This example will NOT throw an error, as x IS defined.
 
-* None at the moment
+```python
+x = int(1)
+try:
+	print(x)
+except:
+	print("An exception occurred") 
+```
 
-* No other current issues
+**This section was last updated on 2021, Tuesday, October 5th at 1:48 pm**
 
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
+###### Except (python)
 
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
+This example will throw an error, as x is not defined.
 
-**TL;DR**
+```python
+try:
+	print(x)
+except:
+	print("An exception occurred") 
+```
 
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
+This example will NOT throw an error, as x IS defined.
 
-### Past issues
+```python
+x = int(1)
+try:
+	print(x)
+except:
+	print("An exception occurred") 
+```
 
-* None at the moment
+**This section was last updated on 2021, Tuesday, October 5th at 1:48 pm**
 
-* No other past issues
+##### Comments (python)
 
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
+**This section was last updated on 2021, Tuesday, October 5th at 12:27 am**
 
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
+###### Single line comments (python)
 
-**TL;DR**
+```python
+# This is a single line comment
+```
 
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
+**This section was last updated on 2021, Tuesday, October 5th at 1:27 pm**
 
-### Past pull requests
+###### Block comments (python)
 
-* None at the moment
+```python
+''' Block comment A
+This is a block comment
+'''
+""" Block comment B
+Block comments can also be written like this.
+"""
+```
 
-* No other past pull requests
+**This section was last updated on 2021, Tuesday, October 5th at 1:27 pm**
 
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
+##### Other (python)
 
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
+about:unknown$notFound
 
-**TL;DR**
+**This section was last updated on 2021, Tuesday, October 5th at 12:24 am**
 
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
+##### Other (python)
 
-### Active pull requests
-
-* None at the moment
-
-* No other active pull requests
-
-If the repository has been forked, issues likely have been removed. Luckily I keep an archive of certain images [here](/.github/Issues/)
-
-[Read the privacy policy on issue archival here](/.github/Issues/README.md)
-
-**TL;DR**
-
-I archive my own issues. Your issue won't be archived unless you request it to be archived.
-
-***
-
-## Resources
-
-Here are some other resources for this project:
-
-[Project language file A](PROJECT_LANG_1.<fileExtensionForProgrammingLanguage>)
-
-[Join the discussion on GitHub](https://github.com/<developerName>/<repoName>/discussions)
-
-No other resources at the moment.
-
-***
-
-## Contributing
-
-Contributing is allowed for this project, as long as you follow the rules of the `CONTRIBUTING.md` file.
-
-[Click/tap here to view the contributing rules for this project](/CONTRIBUTING.md)
-
-***
-
-## About README
-
-**File type:** `Markdown Document (*.md *.mkd *.markdown)`
-
-**File version:** `0.1.6 (Monday, August 23rd 2021 at 6:37 pm)`
-
-**Line count (including blank lines and compiler line):** `0,407`
-
-***
-
-## README version history
-
-Version 0.1 (Sunday, March 21st 2021 at 7:50 pm)
-
-> Changes:
-
-> * Started the file
-
-> * Added the title section
-
-> * Added the index
-
-> * Added the about section
-
-> * Added the Wiki section
-
-> * Added the version history section
-
-> * Added the issues section.
-
-> * Added the past issues section
-
-> * Added the past pull requests section
-
-> * Added the active pull requests section
-
-> * Added the contributors section
-
-> * Added the contributing section
-
-> * Added the about README section
-
-> * Added the README version history section
-
-> * Added the resources section
-
-> * Added a software status section, with a DRM free sticker and message
-
-> * Added the sponsor info section
-
-**ITERATION 5**
-
-> * Updated the title section
-
-> * Updated the index
-
-> * Added the history section
-
-> * Updated the file info section
-
-> * Updated the file history section
-
-**ITERATION 6**
-
-> * Updated the title section
-
-> * Fixed and update template links
-
-> * Updated the index
-
-> * Added the copying section
-
-> * Added the credits section
-
-> * Added the installation section
-
-> * Updated the resources section
-
-> * Updated the contributors section
-
-> * Added the technical notes section
-
-> * Updated the footer
-
-> * Updated the file info section
-
-> * Updated the file history section
-
-> * No other changes in version 0.1
-
-Version 1 (Coming soon)
-
-> Changes:
-
-> * Coming soon
-
-> * No other changes in version 1
-
-Version 2 (Coming soon)
-
-> Changes:
-
-> * Coming soon
-
-> * No other changes in version 2
-
-***
-
-### You have reached the end of the README file
-
-( [Back to top](#Top) | [Exit to GitHub](https://github.com) | [Exit to Bing](https://www.bing.com/) | [Exit to DuckDuckGo](https://duckduckgo.com/) | [Exit to Ecosia](https://www.ecosia.org) )
-
-### EOF
-
-***
+More examples coming soon.
