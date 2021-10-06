@@ -5,12 +5,11 @@
 # .gitattributes
 # and nothing else, no characters before, no characters after
 # Start of linguist script
-# HTML (Duplicate, as it is already detected by GitHub Linguist by default)
-*.htm linguist-detectable=true
-*.htm linguist-documentation=false
-*.html linguist-detectable=true
-*.html linguist-documentation=false
-# Do not include, as it would become a dominant language that shouldn't be the language people refer this project to
+# ReStructuredText
+*.rst linguist-detectable=true
+*.rst linguist-documentation=false
+# YAML
+# Do not include, not a project language
 *.yml linguist-detectable=false
 *.yml linguist-documentation=false
 *.yaml linguist-detectable=false
@@ -19,13 +18,20 @@
 # Do not include, as it would become the 100% dominant language and would hide all the other languages as "other"
 *.md linguist-detectable=false
 *.md linguist-documentation=false
+*.mkd linguist-detectable=false
+*.mkd linguist-documentation=false
+*.markdown linguist-detectable=false
+*.markdown linguist-documentation=false
 # Makefile (GNU Make)
 # Do not include, as it is not needed to be shown
 *.mk linguist-detectable=false
 *.mk linguist-documentation=false
+# Python
+*.py linguist-detectable=true
+*.py linguist-documentation=false
 # End of linguist script
 # File info
-# File type: .gitattributes file
-# File version: 1 (Monday, 2021 August 23rd at 4:17 pm)
-# Line count (including blank lines and compiler line): 32
+# File type: gitattributes file (.gitattributes)
+# File version: 2 (Wednesday, 2021 October 6th at 3:14 pm)
+# Line count (including blank lines and compiler line): 38
 # End of script
